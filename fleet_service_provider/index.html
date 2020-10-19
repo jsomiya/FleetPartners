@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Meta tags-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Change Title and Meta tags-->
+    <title>FleetMatch</title>
+    <meta name="description" content="fleet, fleet management, drivers, germany, management">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Fleetables">
+
+    <!-- Change Twitter card tags-->
+    <meta name="twitter:card" content="app">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:app:name:iphone" content="">
+    <meta name="twitter:app:id:iphone" content="">
+    <meta name="twitter:app:name:ipad" content="">
+    <meta name="twitter:app:id:ipad" content="">
+    <meta name="twitter:app:name:googleplay" content="">
+    <meta name="twitter:app:id:googleplay" content="">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/icon.png">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" type="text/css" href="css/plugins.css">
+    <!-- Our Min CSS -->
+    <link rel='stylesheet' type="text/css" href='css/styles.css'/>
+    <link rel="stylesheet" type="text/css" href="css/color/style7.css" id="colors">
+
+  
+    <!-- Google Analytics -->
+<script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;         ga('create', 'UA-101768876-2', 'auto');         ga('send', 'pageview');     </script>
+  <script async src='../../www.google-analytics.com/analytics.js'></script>
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 20%; /* IE10 */
+  flex: 20%;
+  max-width: 20%;
+  padding: 0 4px;
+}
+
+.column img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<!-- End Google Analytics -->
+
+</head>
+<body>
+
+<!-- Start Nav Section -->
+<nav id="main-nav" class="nav-down">
+
+    <div id="nav-color" ></div>
+
+    <div class="nav-wrapper">
+
+        <a class="brand-logo design-font waves-effect waves-light no-bg" data-scroll-nav="0" href="#">
+            <img class="responsive-img logo" src="images/mainlogo.png" alt="">
+        </a>
+
+        <a href="#" data-activates="mobile-demo" class="button-collapse">
+
+            <div class="very_small_hamburger" id="hamburger-menu">
+                <i class="fa fa-bars"></i>
+            </div>
+
+        </a>
+
+        <!-- Main Menu Content -->
+        <ul class="right hide-on-med-and-down">
+             <li>
+                <a class="waves-effect waves-light" data-scroll-nav="1" href="#">How it works?</a>
+            </li>
+            <li>
+                <a class="waves-effect waves-light" data-scroll-nav="2" href="#">Services</a>
+            </li>
+            <li>
+                <a class="waves-effect waves-light" data-scroll-nav="2" href="#">About</a>
+            </li>
+            <li>
+                <a class="waves-effect waves-light" data-scroll-nav="6" href="#">FAQs</a>
+            </li>
+            <li>
+                <a class="waves-effect waves-light" data-scroll-nav="7" href="#">Contact</a>
+            </li>
+             
+            <li>
+                <a class="login-menubutton" data-scroll-nav="7" href="#">Log In</a>
+            </li>
+             <li>
+                <a class="dropdown-button waves-effect waves-light" href="#!" data-activates="lang-dropdown">
+                   <i class="fa fa-globe"></i>
+                    <i class="fa fa-caret-down"></i>
+                </a><ul id="lang-dropdown" class="dropdown-content" style="white-space: nowrap; position: absolute; top: 65.1562px; left: 0px; display: none; opacity: 1;">
+
+            <li>
+                <a class="waves-effect waves-light" data-scroll-nav="4" href="#">English</a>
+            </li>
+
+            <li>
+                 <a class="waves-effect waves-light" data-scroll-nav="4" href="#">German</a>
+            </li>
+ 
+            </ul>
+            </li>
+            </ul>
+
+
+<!--Side Nav for Mobile And Screen Width less than 993px-->
+<ul class="side-nav" id="mobile-demo">
+
+<!--Side Nav Logo -->
+            <li>
+                <a class="waves-effect waves-light home  no-bg" data-scroll-nav="0" href="#">
+                    <img class="responsive-img logo" src="images/logo.png" alt="Logo image"><br>
+                </a>
+            </li>
+
+            <li>
+                <a class="waves-effect waves-light" data-scroll-nav="0" href="#">Home</a>
+            </li>
+
+            <li>
+                <a class="waves-effect waves-light" data-scroll-nav="1" href="#">Features</a>
+            </li>
+
+            <li>
+                <a class="waves-effect waves-light" data-scroll-nav="6" href="#">FAQs</a>
+            </li>
+
+            <li>
+                <a class="waves-effect waves-light" data-scroll-nav="7" href="#">Contact</a>
+            </li>
+        </ul>
+
+    </div>
+
+</nav>
+<!-- End Nav Section-->
+
+<!-- Start Header Section-->
+<header id="main-header" data-scroll-index="0">
+    <div class="overlay gradient-color"></div>
+    <div id="particles-js"><canvas class="particles-js-canvas-el" width="1016" height="757" style="width: 100%; height: 100%;"></canvas></div>
+
+    <div class="header-section container">
+
+        <div class="header-text">
+
+            <div>
+                <!-- Title -->
+                <div class="title">
+                    <h3>
+                        Find New Customers
+                    </h3>
+                </div>
+
+                <!--  Description -->
+                <p class="description">Get recognised to an audience of more than 2500 company fleets in Germany</p>
+
+                <!-- App Slogan -->
+                <a data-scroll-goto="7" class="slogan z-depth-1 hoverable waves-effect waves-light">Offer Your Services</a>
+            </div>
+
+        </div>
+<img src="images/slider-image.png" alt="">
+    </div>
+
+</header>
+<!-- End Header Section-->
+
+<!-- Start About Section-->
+<section id="about-us" class="main-section center-align" data-scroll-index="2">
+
+    <div class="container">
+
+        <!--Title-->
+        <h4 class="reflection-text p-b-2">How it works?</h4>
+            
+        <div class="row">
+
+            <div class="col s12 l4">
+
+                <img src="images/Register_icon.png" alt="">
+
+                <h5 class="p-tb-1">Join and Register</h5>
+
+                <p>Register for free and list your services on FleetMatch. </p>
+
+            </div>
+
+            <div class="col s12 l4">
+
+                  <img src="images/Get_client_icon.png" alt="">
+
+                <h5 class="p-tb-1">Get New Clients</h5>
+
+                <p>Meet the best clients with huge fleets and provide them services.</p>
+
+            </div>
+
+            <div class="col s12 l4">
+
+                 <img src="images/Get%20Paid%20well%20Icon.png" alt="">
+
+                <h5 class="p-tb-1">Get Paid Well</h5>
+
+                <p>We have a trusted network of customers and payment gateway.</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- End About Section-->
+
+
+<!-- Start Services Section-->
+<section id="features" data-scroll-index="2" class="main-section center-align">
+
+
+<div class="container">
+
+        <!--Title-->
+        <h4 class="reflection-text reflection-text-white p-b-2">Services we offer</h4>
+
+        <div class="row p-t-2">
+
+            <div class="col s12 m12 l6 p-tb-1 feature-right"> <img src="images/services.png" alt="" style="float: left;"></div>
+                 <div class=" col s12 m12 l6 best">
+                     <p><img src="images/tick.png">Easy Payments Gateway</p>
+                     <p><img src="images/tick.png">New customer acquisition</p>
+                     <p><img src="images/tick.png">Free Listing on the FleetMatch Platform</p>
+                     <p><img src="images/tick.png">One Stop Platform for all fleet management</p>
+                     <p><img src="images/tick.png">Community of more than +120 FleetMatch Partners</p>
+                     <p><img src="images/tick.png">Latest Technological Solutions</p>
+            
+             </div>
+    </div>
+</div>
+
+</section>
+<!-- End Services Section-->
+    
+
+    
+
+
+
+
+    
+<!-- End services Section-->
+<section id="services-hp">
+     <div class="container">
+        <div class="row"> 
+  <div class="column col l2 s12 m12">
+    <img src="images/service1.png" style="width:100%">
+    <img src="images/service2.png" style="width:100%">
+
+  </div>
+  <div class="column col l2 s12 m12">
+    <img src="images/service3.png" style="width:100%"> 
+  
+  </div>  
+  <div class="column col l2 s12 m12">
+    <img src="images/service4.png" style="width:100%">
+    <img src="images/service6.png" style="width:100%">
+   
+  </div>
+   <div class="column col l2 s12 m12">
+    <img src="images/service5.png" style="width:100%">
+   
+  </div>
+  <div class="column col l3 s12 m12 last">
+      <div class="box">
+    <h5>WHAT SERVICES DO YOU OFFER?</h5>
+      <a href="#">Join and Earn</a>
+
+    </div>
+       </div> 
+  </div>
+</div>
+</section>
+
+ 
+    
+    
+    
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!-- Start Join us Section-->
+    <section id="join-us">
+<div class="container">
+    <div class="row">
+   <div class="col s12 m12 l10 join-desc"> 
+      <h6>“As we are convinced of our product we charge around 0-5 % only in case of success.”</h6>
+      <p>For details click <a href="#">here</a>.</p>
+   </div>   
+<div class="col s12 m12 l2 join-btn">
+        <p><a href="https://jatinsinghal610081.typeform.com/to/bVZBqaSS">Join Now</a></p>
+</div>
+    </div>
+</div>
+    </section>
+    
+<!-- End Join us Section-->
+    
+  <!-- Start Presentation Section-->
+<section id="showcase" data-scroll-index="1"  class="main-section">
+<div class="container">
+         <div class="row p-tb-3">
+           <div class="col s12 l7 aos-init aos-animate" data-aos="fade-right" data-aos-delay="100">
+             <h5 class="p-b-1">Who are We?</h5>
+              <p>We are a German based company with an aim to create a commity for fleet service providers and become a <b>one stop platform for company corporate fleets.</b> We have an audience of more than 2500 corporate car fleets associated with our platform. We aim to revolutionarize fleet management industry, by providing technological solutions to both service providers like you and corporate car fleets.</p>
+            </div>
+
+            <div class="col s12 l5 center-align aos-init aos-animate" data-aos="fade-left" data-aos-delay="200">
+              <img src="images/logo.png" alt="">
+            </div>
+         </div>
+</div>
+
+</section>
+<!-- End Presentation Section-->
+
+    
+<!-- Start Statistics Section-->
+<section id="statistics" class="main-section center-align">
+<div class="container">
+       <h4 class="reflection-text reflection-text-white p-b-2">Why us?</h4>
+
+        <div class="row p-t-2">
+
+            <div class="col s12 m6 l4 p-tb-1">
+              <h3><span class="counter">2500</span>+</h3>
+                <h6>corporate company fleet</h6>
+           </div>
+
+            <div class="col s12 m6 l4 p-tb-1">
+             <h3><span class="counter">43</span>+</h3>
+             <h6>Service providers already in the community</h6>
+            </div>
+            
+           <div class="col s12 m6 l4 p-tb-1">
+            <h3><span class="counter">2.5</span>Mln</h3>
+               <h6>Drivers already in the community</h6>
+           </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- End Statistics Section-->
+    
+    
+    
+<!-- Start FAQs Section-->
+<section id="faq" data-scroll-index="3" class="main-section">
+   <div class="container">
+      <h4 class="reflection-text p-b-2">FAQ<small>s</small></h4>
+       <div class="row p-t-3 faq-main">
+           <div class="col s12 m6 l9 p-tb-1 aos-animate aos-init" data-aos="fade-left" data-aos-delay="100">
+           <button class="accordion">Q. How much do we charge for various services?</button>
+           <div class="panel">
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+           </div>
+
+           <button class="accordion">Q. How much do we charge for various services?</button>
+           <div class="panel">
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+           </div>
+
+           <button class="accordion">Q. How much do we charge for various services?</button>
+           <div class="panel">
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+           </div>
+           <button class="accordion">Q. How much do we charge for various services?</button>
+           <div class="panel">
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+           </div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>  
+    
+          </div>
+           <div class="col s12 m6 l3 p-tb-1 aos-animate aos-init" data-aos="fade-left" data-aos-delay="100"> <div class="faq-right"> 
+              <h6>Don’t find your <br> query?</h6>
+              <p><a href=#>Ask a question</a></p></div>
+          </div>
+       </div>
+   </div>
+</section>
+<!-- Start Join Section-->
+    <section id="join"> 
+    <div class="container">
+<h5><a href="https://jatinsinghal610081.typeform.com/to/bVZBqaSS">Register now</a></h5>
+        <p>And take your business to the next level</p>
+        </div>
+        </section>
+    
+<!-- End Join Section-->
+    
+<!-- Start Footer Section-->
+<section id="footer" data-scroll-index="4" class="main-section center-align gradient-color">
+   <div class="footer-content p-t-3 left-align">
+      <div class="container">
+      <h3>Contacts</h3>
+         <div class="row">
+            <div class="about col s12 m6 l4">
+               <p>Give us a call on </p>
+                <h5 class="p-b-2"><i class="fa fa-phone"></i>+01-33433222221</h5>
+             </div>
+             <div class="about col s12 m6 l4">
+                <p>Or mail us at</p>
+                 <h5 class="p-b-2"><i class="fa fa-envelope"></i> info@fleetmatch.com</h5>
+              </div>
+               <div class="about col s12 m6 l4 footer-images">
+                  <img src="images/fleetmatch_footer.png">   
+                  <img src="images/dps_logo.png"> 
+                  <img src="images/lapid_logo.png"> 
+               </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- End Footer Section-->
+
+<!-- Start Copy Rights Section-->
+<div id="copy-rights" class="col s12">
+   <div class="container">
+        <p>Copyrights &copy; Reserved 2020 <br>
+         All Trademarks and copyrights belong to DPS and LapID</p>
+        <div class="footer-links">
+            <a href="#"> Privacy Policy |</a>
+             <a href="#">Terms & Conditions</a>
+         </div>
+       
+ </div>
+ 
+
+</div>
+<!-- End Copy Rights Section-->
+
+<!-- jQuery - and plugins JS files -->
+<script src='js/plugins.js' type="text/javascript"></script>
+<!-- Particles JS -->
+<script src='js/animated/particles.min.js' type="text/javascript"></script>
+<script src='js/animated/animated-main.js' type="text/javascript"></script>
+<!-- Contact Form JS -->
+<script src='js/min/contact-form-min.js' type="text/javascript"></script>
+<!-- Google Maps JS -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbWITJhiYWwcN7gobIdTe2RHGUWDmZKgw&amp;sensor=false"></script>
+<script src="js/min/maps-min.js"></script>
+<!-- Our Main JS -->
+<script src='js/min/main-min.js' type="text/javascript"></script>
+
+    
+    
+</body>
+
+</html>
